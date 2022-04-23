@@ -1,18 +1,66 @@
 body {
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  background: gray;
+  height: 75px;
+  align-items: center;
+}
+
+h1{
+  margin: 0;
 }
 
 main {
   display: flex;
-  flex-flow: column wrap;
-  background-color: coral;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  float: inside;
+}
+
+article {
+  float: left;
+  text-wrap: normal;
+  width: 50%;
+  background-color: lightblue;
   margin: 20px;
   padding: 10px;
 }
 
-article {
-  justify-content: center;
-  background-color: navajowhite;
+section {
+  float: right;
+  width: 40%;
+  background-color: lightblue;
   margin: 20px;
   padding: 10px;
+}
+
+img {
+  scale: 10%;
+}
+
+.menuItem {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: grey;
+}
+
+#mainText {
+  width: 100%
+
 }

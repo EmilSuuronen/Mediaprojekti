@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: coral;
+  margin: 20px;
+  padding: 10px;
+}
+
+article {
+  justify-content: center;
+  background-color: navajowhite;
+  margin: 20px;
+  padding: 10px;
+}

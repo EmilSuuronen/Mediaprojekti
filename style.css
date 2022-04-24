@@ -1,4 +1,5 @@
 body {
+  background-image: url("images/cocktail-background.jpg");
   text-align: center;
   margin: 0;
   padding: 0;
@@ -17,6 +18,8 @@ h1{
 }
 
 main {
+  margin: auto;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
   background-color: lightgrey;
@@ -26,7 +29,7 @@ main {
 article {
   float: left;
   text-wrap: normal;
-  width: 50%;
+  width: 40%;
   background-color: lightblue;
   margin: 20px;
   padding: 10px;

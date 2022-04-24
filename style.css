@@ -65,5 +65,14 @@ img {
 
 #mainText {
   width: 100%
-
 }
+
+#drinkOTD {
+  text-align: center;
+}
+
+.drinkOTDImg {
+  max-width: 30%;
+  max-width: 30%;
+}
+

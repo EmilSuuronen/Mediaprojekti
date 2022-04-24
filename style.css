@@ -14,7 +14,7 @@ header{
   height: 75px;
   align-items: center;
   float: inside;
-  border-bottom-style: outset;
+
   border-color: rgba(256,256,256,0.6);;;
 }
 
@@ -29,7 +29,7 @@ main {
   flex-wrap: wrap;
   background: rgba(0,0,0,0.6);;
   float: inside;
-  border-style: outset;
+  border-style: solid;
   border-color: rgba(256,256,256,0.6);;;
 
 }
@@ -116,3 +116,51 @@ img {
   max-width: 30%;
 }
 
+#rimg{
+  width: 45%;
+  min-width: 150px;
+  margin: auto;
+}
+#rul{
+  line-height: 30px;
+  align-self: center;
+  text-align: justify-all;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  min-width: 150px;
+  width: 45%;
+}
+#rmain{
+  border: none;
+  background: none;
+}
+#rtitle{
+  background: darkgray;
+  width: 100%;
+}
+#rinstructions{
+  text-align: left;
+  width: 100%;
+  min-width: 150px;
+}
+#rcontainer{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  min-width: 250px;
+  background: gray;
+  width: 50%;
+  padding: 30px;
+}
+#rsearch{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  min-width: 250px;
+  padding: 10px;
+}
+#cocktailinput{
+  width: 90%;
+}

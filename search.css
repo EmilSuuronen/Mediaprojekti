@@ -1,0 +1,37 @@
+#rimg{
+    width: 45%;
+    min-width: 150px;
+    margin: auto;
+}
+#rul{
+    line-height: 30px;
+    align-self: center;
+    text-align: justify-all;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    min-width: 150px;
+    width: 45%;
+}
+#rmain{
+
+}
+#rtitle{
+    background: darkgray;
+    width: 100%;
+}
+#rinstructions{
+    text-align: left;
+    width: 100%;
+    min-width: 150px;
+}
+#rcontainer{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    min-width: 250px;
+    background: gray;
+    width: 50%;
+    padding: 25px;
+}

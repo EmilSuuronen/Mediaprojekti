@@ -1,0 +1,27 @@
+/*
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map.
+ */
+#map {
+    height: 95%;
+    width: 95%;
+    margin: auto;
+}
+
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+
+#mapcontainer{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background: gray;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

@@ -14,7 +14,7 @@ header{
   height: 75px;
   align-items: center;
   float: inside;
-  border-bottom-style: outset;
+
   border-color: rgba(256,256,256,0.6);;;
 }
 
@@ -29,7 +29,7 @@ main {
   flex-wrap: wrap;
   background: rgba(0,0,0,0.6);;
   float: inside;
-  border-style: outset;
+  border-style: solid;
   border-color: rgba(256,256,256,0.6);;;
 
 }

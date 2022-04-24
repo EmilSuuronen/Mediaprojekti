@@ -1,18 +1,35 @@
-'use strict';
+'use strict'
 
-const lomake = document.querySelector('form');
 
-lomake.addEventListener('submit', function (evt) {
-  evt.preventDefault();
-  const search = document.querySelector('input[name=searchBox]').value;
-
-  console.log(search);
-
-  fetch('www.thecocktaildb.com/api/json/v1/1/search.php?s="' + search).then(function (result) {
-    return result.json();
-  }).then(function (series) {
-    showSeries(series);
-  }).catch(function (error) {
-    console.log(error);
-  });
+fetch('https://thecocktaildb.com/api/json/v1/1/random.php').then(function (result) {
+  return result.json();
+  console.log(result);
+}).then(function (drinks) {
+  displayCocktail(drinks);
+}).catch(function (error) {
+  console.log(error);
 });
+
+function displayCocktail(drinks){
+
+  console.log(drinks);
+  const drinkName = drinks.drinks[0].strDrink;
+  console.log(drinkName);
+
+  const main = document.querySelector('main');
+
+  const drinkOTD = document.getElementById('drinkOTD')
+  main.appendChild(drinkOTD);
+
+  const cocktailName = document.createElement('H2');
+  cocktailName.textContent = drinks.drinks[0].strDrink;
+  drinkOTD.appendChild(cocktailName);
+
+  const drinkImg = document.createElement('img');
+  drinkImg.src = drinks.drinks[0].strDrinkThumb;
+  drinkImg.className = "drinkOTDImg";
+  console.log(drinks.drinks[0].strDrinkThumb);
+  drinkImg.alt = drinks.drinks[0].strDrink;
+  drinkOTD.appendChild(drinkImg);
+
+}

@@ -25,7 +25,31 @@ main {
   background-color: lightgrey;
   float: inside;
 }
-
+#map {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+}
+header{
+  display: flex;
+  width: 100%;
+  background: gray;
+  height: 75px;
+  align-items: center;
+}
+#mapcontainer{
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background: gray;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 article {
   float: left;
   text-wrap: normal;

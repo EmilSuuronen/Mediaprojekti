@@ -1,6 +1,3 @@
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 let map;
 let service;
 let infowindow;
@@ -40,7 +37,7 @@ function createMarker(place) {
   });
 
   google.maps.event.addListener(marker, "click", () => {
-    infowindow.setContent(place.name || "");
+    infowindow.setContent(place.name + '<div>' + place.formatted_address + '</div>');
     infowindow.open(map, marker);
   });
 }

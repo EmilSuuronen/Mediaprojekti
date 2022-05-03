@@ -211,7 +211,7 @@ li:last-child {
   grid-row: 1/2;
 }
 
-ul {
+#footercontent {
   display: inline-grid;
   grid-auto-flow: row;
   grid-gap: 24px;
@@ -221,7 +221,7 @@ ul {
 }
 
 @media (min-width: 500px) {
-  ul {
+  #footercontent {
     grid-auto-flow: column;
   }
 }

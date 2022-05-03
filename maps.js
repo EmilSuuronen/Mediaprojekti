@@ -3,11 +3,11 @@ let service;
 let infowindow;
 
 function initMap() {
-  const helsinki = new google.maps.LatLng(60.220, 24.892);
+  const helsinki = new google.maps.LatLng(60.168325, 24.939187);
 
   infowindow = new google.maps.InfoWindow();
   map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
+    zoom: 14,
   });
 
   const request = {

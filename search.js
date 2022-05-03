@@ -63,5 +63,5 @@ function showinfo(info){
 
   container.append(title,img,ul,instructions);
   main.appendChild(container);
-
+  main.innerHTML += '<br><br>';
 }

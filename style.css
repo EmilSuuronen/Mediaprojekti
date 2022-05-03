@@ -209,10 +209,3 @@ ul {
   border-top-style: outset;
   border-top-color: rgba(256,256,256,0.6);
 }
-#tekijat {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-evenly;
-
-}

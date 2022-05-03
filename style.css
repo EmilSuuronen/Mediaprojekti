@@ -252,6 +252,10 @@ li:last-child {
   border-top-color: rgba(256,256,256,0.6);
 }
 
+iframe{
+  position:relative;
+}
+
 #imagebox{
   width: 100%;
   margin:auto;
@@ -265,7 +269,7 @@ li:last-child {
   width: 300px;
 }
 #infoHello {
-
+  text-align: center;
 }
 
 #imagebox{
@@ -290,5 +294,12 @@ p {
   margin: auto;
   padding: 15px;
   width: 150px;
+  border-radius: 50%;
+}
+
+.creatorContainer{
+  margin: auto;
+  padding: 15px;
+  width: max-content;
   border-radius: 50%;
 }

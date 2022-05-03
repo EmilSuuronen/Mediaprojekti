@@ -227,3 +227,16 @@ ul {
   border-top-style: outset;
   border-top-color: rgba(256,256,256,0.6);
 }
+
+#imagebox{
+  width: 100%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.imageboximg{
+  margin: auto;
+  padding: 15px;
+  width: 300px;
+}

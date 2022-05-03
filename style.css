@@ -195,7 +195,7 @@ div h2{
   color: antiquewhite;
 }
 article h2 {
-  color: antiquewhite;
+  color: white;
 }
 h1{
   color: white;
@@ -273,4 +273,8 @@ li:last-child {
   margin: auto;
   padding: 15px;
   width: 300px;
+}
+p {
+  font-size: large;
+  font-weight: bolder;
 }

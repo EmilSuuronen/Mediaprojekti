@@ -1,7 +1,14 @@
 const queryinput = document.getElementById('cocktailinput');
 const main = document.getElementById('rmain');
 const button = document.getElementById('search');
+
+queryinput.addEventListener('keypress', function(key){
+  if(key.key === "Enter"){
+    haku();
+  }
+})
 button.addEventListener('click', haku);
+
 function haku(){
   main.innerHTML = '';
   fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s='+queryinput.value)

@@ -90,7 +90,7 @@ article {
   width: 40%;
   background: rgba(128,256,256,0.6);;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -102,6 +102,7 @@ section {
   padding: 10px;
   border-radius: 5px;
 }
+
 #footerText {
   color: rgba(256,256,256,1);
 }
@@ -133,9 +134,11 @@ section {
   text-align: justify-all;
   list-style-type: none;
   margin: auto;
-  padding: 0;
+  padding: 10px;
   min-width: 150px;
   width: 45%;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
 }
 #rmain{
   border: none;
@@ -144,14 +147,20 @@ section {
   min-height: 75%;
 }
 #rtitle{
+  color: black;
   border-radius: 5px;
   width: 100%;
   margin-bottom: 40px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.6);
 }
 #rinstructions{
   text-align: left;
   width: 100%;
   min-width: 150px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 5px;
 }
 #rcontainer{
   border-radius: 15px;
@@ -183,6 +192,9 @@ div h1{
   color: palevioletred;
 }
 div h2{
+  color: antiquewhite;
+}
+article h2 {
   color: antiquewhite;
 }
 h1{
@@ -248,6 +260,7 @@ li:last-child {
   padding: 15px;
   width: 300px;
 }
+#infoHello
 
 #imagebox{
   width: 100%;

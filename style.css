@@ -7,17 +7,6 @@ body {
   padding: 0;
 }
 
-header{
-  display: flex;
-  width: 100%;
-  background: rgba(0,0,0,0.6);
-  height: 75px;
-  align-items: center;
-  float: inside;
-
-  border-color: rgba(256,256,256,0.6);;;
-}
-
 h1{
   margin: 0;
 }
@@ -44,6 +33,24 @@ header{
   background: gray;
   height: 75px;
   align-items: center;
+}
+header img {
+  height: 75px;
+  width: 75px;
+}
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.menuItem {
+  min-width: 75px;
+  line-height: 75px;
+  font-size: 20px;
+  min-height: 75px;
+  margin: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
 }
 #mapcontainer{
   display: flex;
@@ -75,17 +82,6 @@ section {
   margin: 20px;
   padding: 10px;
   border-radius: 5px;
-}
-
-img {
-  scale: 10%;
-}
-
-.menuItem {
-  padding: 10px;
-  margin: 15px;
-  border-radius: 5px;
-  background-color: white;
 }
 
 #footer {

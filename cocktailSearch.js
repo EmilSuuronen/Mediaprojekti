@@ -31,5 +31,7 @@ function getData() {
 
     console.log(drinks.drinks[0].strDrinkThumb);
     drinkImg.alt = drinks.drinks[0].strDrink;
+
+
   }
 }

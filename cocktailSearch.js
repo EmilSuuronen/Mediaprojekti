@@ -23,21 +23,13 @@ function getData() {
     const drinkName = drinks.drinks[0].strDrink;
     console.log(drinkName);
 
-    const main = document.querySelector('main');
-
-    const drinkOTD = document.getElementById('drinkOTD')
-    main.appendChild(drinkOTD);
-
-    const cocktailName = document.createElement('H2');
+    const cocktailName = document.getElementById('cocktailname')
     cocktailName.textContent = drinks.drinks[0].strDrink;
-    drinkOTD.appendChild(cocktailName);
 
-    const drinkImg = document.createElement('img');
+    const drinkImg = document.getElementById('cocktailimage')
     drinkImg.src = drinks.drinks[0].strDrinkThumb;
-    drinkImg.className = "drinkOTDImg";
+
     console.log(drinks.drinks[0].strDrinkThumb);
     drinkImg.alt = drinks.drinks[0].strDrink;
-    drinkOTD.appendChild(drinkImg);
-
   }
 }

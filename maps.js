@@ -22,7 +22,6 @@ function initMap() {
       for (let i = 0; i < results.length; i++) {
         createMarker(results[i]);
       }
-
       map.setCenter(helsinki);
     }
   });

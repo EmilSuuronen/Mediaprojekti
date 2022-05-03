@@ -1,6 +1,9 @@
 body {
   background-image: url("images/cocktail-background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   margin: 0;
@@ -51,6 +54,18 @@ nav {
   margin: 2px;
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
+}
+a:link{
+  color: aquamarine;
+}
+a:visited{
+  color: aquamarine;
+}
+a:hover{
+  color: aquamarine;
+}
+a:active{
+  color: palevioletred;
 }
 #mapcontainer{
   display: flex;
@@ -162,6 +177,9 @@ div h1{
 div h2{
   color: antiquewhite;
 }
+h1{
+  color: white;
+}
 #search{
   margin: 0;
   padding: 0;
@@ -201,7 +219,7 @@ ul {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: max-content;

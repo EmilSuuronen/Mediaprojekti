@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
@@ -27,7 +27,7 @@ main {
   width: 95%;
   margin: auto;
 }
-header{
+header {
   display: flex;
   width: 100%;
   background: gray;
@@ -38,7 +38,7 @@ header img {
   height: 75px;
   width: 75px;
 }
-nav{
+nav {
   width: 100%;
   display: flex;
   align-items: center;
@@ -83,21 +83,9 @@ section {
   padding: 10px;
   border-radius: 5px;
 }
-
-#footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: max-content;
-  background: rgba(0,0,0,1);
-  border-top-style: outset;
-  border-top-color: rgba(256,256,256,0.6);;
-}
-
 #footerText {
   color: rgba(256,256,256,1);
 }
-
 
 #mainText {
   width: 100%
@@ -183,4 +171,44 @@ div h2{
   margin:auto;
   background: none;
   color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+a:hover {
+  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+li:last-child {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+ul {
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: center;
+  margin: auto;
+  padding: 12px;
+}
+
+li:hover ~ li p {
+  animation: wave-animation 0.3s infinite;
+}
+@media (min-width: 500px) {
+  ul {
+    grid-auto-flow: column;
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: max-content;
+  background: rgba(0,0,0,1);
+  border-top-style: outset;
+  border-top-color: rgba(256,256,256,0.6);
 }

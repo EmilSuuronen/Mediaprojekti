@@ -155,7 +155,7 @@ section {
 }
 #rsearch{
   display: flex;
-  width: 50%;
+  width: 25%;
   margin: auto;
   flex-wrap: wrap;
   min-width: 250px;
@@ -163,6 +163,7 @@ section {
 }
 #cocktailinput{
   width: 80%;
+  height: 25px;
   margin: 0;
   padding: 0;
 }
@@ -177,4 +178,9 @@ div h2{
   margin: 0;
   padding: 0;
   width: 15%;
+}
+.rintro{
+  margin:auto;
+  background: none;
+  color: white;
 }

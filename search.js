@@ -18,8 +18,15 @@ function haku(){
     showinfo(json);
     console.log(json);
   }).catch(function(error){
+    showerror()
     console.log(error);
   })
+}
+function showerror(){
+  const errormessage = document.createElement('h3');
+  errormessage.className = 'rintro';
+  errormessage.textContent = 'Hakemaasi cocktailia ei löytynyt.';
+  main.appendChild(errormessage);
 }
 function showinfo(info){
   const drink = info.drinks[0];

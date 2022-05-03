@@ -248,3 +248,16 @@ li:last-child {
   padding: 15px;
   width: 300px;
 }
+
+#imagebox{
+  width: 100%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.imageboximg{
+  margin: auto;
+  padding: 15px;
+  width: 300px;
+}

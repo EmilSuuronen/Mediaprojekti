@@ -19,7 +19,7 @@ function showinfo(info){
   console.log(info.drinks[0]);
   const container = document.createElement('div');
   container.id = 'rcontainer';
-  const title = document.createElement('h1');
+  const title = document.createElement('h2');
   title.id = 'rtitle';
   const img = document.createElement('img');
   img.id = 'rimg';

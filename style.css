@@ -134,10 +134,12 @@ img {
 #rmain{
   border: none;
   background: none;
+  width: 100%;
 }
 #rtitle{
-  background: darkgray;
+  border-radius: 5px;
   width: 100%;
+  margin-bottom: 40px;
 }
 #rinstructions{
   text-align: left;
@@ -145,6 +147,7 @@ img {
   min-width: 150px;
 }
 #rcontainer{
+  border-radius: 15px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -152,15 +155,30 @@ img {
   min-width: 250px;
   background: gray;
   width: 50%;
-  padding: 30px;
+  padding: 15px;
 }
 #rsearch{
   display: flex;
-  width: 40%;
+  width: 50%;
   margin: auto;
+  flex-wrap: wrap;
   min-width: 250px;
-  padding: 10px;
+  padding: 15px;
 }
 #cocktailinput{
-  width: 90%;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+div h1{
+  width: 100%;
+  color: palevioletred;
+}
+div h2{
+  color: antiquewhite;
+}
+#search{
+  margin: 0;
+  padding: 0;
+  width: 15%;
 }

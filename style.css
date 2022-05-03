@@ -287,4 +287,8 @@ p {
 }
 
 .creatorImg{
+  margin: auto;
+  padding: 15px;
+  width: 150px;
+  border-radius: 50%;
 }

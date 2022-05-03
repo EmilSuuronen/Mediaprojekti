@@ -264,7 +264,9 @@ li:last-child {
   padding: 15px;
   width: 300px;
 }
-#infoHello
+#infoHello {
+
+}
 
 #imagebox{
   width: 100%;
@@ -279,6 +281,6 @@ li:last-child {
   width: 300px;
 }
 p {
-  font-size: large;
+  font-size: x-large;
   font-weight: bolder;
 }
